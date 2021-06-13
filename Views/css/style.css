@@ -53,6 +53,8 @@
 }
 
 a {
+  font-size: 13px;
+  color: #1af;
   text-decoration: none; /* 下線を消す   */
 }
 /* 
