@@ -53,10 +53,18 @@ html {
 
 }
 .btn:hover {
-  color: #eef;
+  color: #fff;
  
 }
+.btn-reverse {
+  background-color: #fff;
+  color: #1af;
+  border: 1px solid #1af;
+}
+.btn-reverse:hover {
+  color: #1af;    /* ボタンにマウスが当たった時に色が変わらないように   */
 
+}
 a {
   font-size: 13px;
   color: #1af;
@@ -311,3 +319,58 @@ body.signup {
   color: #fff;
 
 }
+/* 
+ユーザー
+*/
+.profile .profile-area{
+  padding: 25px;
+}
+.profile .profile-area .top{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;   /* flex要素が横並びの時は下寄せ縦並びの時は右寄せする */
+  
+}
+.profile. .profile-area .top .user{
+  width: 30%;
+  padding: 5px 15px 10px 0;
+
+
+}
+
+
+.profile .profile-area .top .user img{
+    width: 100%;    /*user要素いっぱいにする */
+    border-radius: 50%;
+    border: 3px solid rgb(235, 238, 240);
+}
+.profile .profile-area .top button{
+    margin-bottom: 20px;
+
+}
+.profile .profile-area .name{
+    font-weight: bold;
+    font-size: 18px;
+
+
+}
+.profile .profile-area .follow-follower{
+    display: flex;
+    padding: 15px 0 10px 0;
+
+}
+.profile .profile-area .follow-follower .follower-count{
+    width: 30px;
+    font-weight: bold;
+    font-size: 16px;
+
+
+}
+.profile .profile-area .follow-follower .follow-text{
+  width: 100px;
+  font-size: 16px;
+  margin-right: 30px;
+  color: #778;
+
+}
+

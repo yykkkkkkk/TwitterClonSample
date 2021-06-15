@@ -209,8 +209,8 @@ function convertToDayTimeAgo(string $datetime)
                 </div>
                 <div class="like-count js-like-count"><?php echo htmlspecialchars($view_tweet['lile_count']); ?></div>
               </div>
-          </div>
         </div>
+      </div>  
         <?php endforeach; ?>
 
           <!-- <div class="tweet"> 
